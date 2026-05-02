@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Мій сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">Про мене</a>
+      <a href="#features">Мої документи</a>
+      <a href="#contact">Контакти</a>
+    </nav>
+    <h1>Документи інваліда ІІ групи</h1>
+    <p>Документи інваліда ІІ групи Калачикова Олександра Васильовича</p>
+  </header>
+
+  <section id="about">
+    <h2>Про мене</h2>
+    <p>Калачиков Олександр Васильович, 1960 р.н. інвалід ІІ групи з 2012 року.</p>
+  </section>
+
+<section id="gallery">
+  <h2>Мої документи</h2>
+  <div class="gallery">
+    <img src="0001.jpg" alt="0001">
+    <img src="0002.jpg" alt="0002">
+    <img src="0003.jpg" alt="0003">
+    <img src="0004.jpg" alt="0004">
+    <img src="0005.jpg" alt="0005">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Контакти</h2>
+  <form>
+    <label for="name">Ім'я:</label>
+    <input type="text" id="name" name="name" placeholder="Калачиков Олександр Васильович" required>
+
+    <label for="phone">Телефон:</label>
+    <input type="tel" id="phone" name="phone" placeholder="+38(066) 0000-340">
+
+    <label for="message">Повідомлення:</label>
+    <textarea id="message" name="message" placeholder="Маю право на безкоштовне паркування. Пріоритет - НА МІСЦЯХ ДЛЯ ІНВАЛІДІВ"></textarea>
+
+    <button type="submit">Надіслати</button>
+  </form>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
